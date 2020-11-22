@@ -4,19 +4,19 @@
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [About the Project](#about-the-project)
-* [Prerequisites](#prerequisites)
+* [Motivation](#about-the-project)
+* [Libraries Used](#prerequisites)
 * [Files](#files)
 * [Summary of Results](#summary)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Motivation
 
 PySpark offers two options for storing a data table: Pandas like data frame structure (not exactly same as Pandas df), resilient distributed dataset (RDD) data structure. When it comes to simple low level actions on tables in a dataset, it is known that PySpark data frames are faster than RDD [1,2]. But that information alone does not tell much about how they compare in higher-level modeling actions, in terms of overall training error and training time for predictive model (e.g. recommender systems). Do dataframes enable faster training and better learning accuracy than RDD? Also, are they fast in making prediction post training?
 
-### Prerequisites
+### Libraries Used
 I used following libraries for building this project:
 
 - pandas 
